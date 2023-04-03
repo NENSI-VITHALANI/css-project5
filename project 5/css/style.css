@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    background-color: rgb(0, 53, 57);
+    width: 100%;
+    height: 100vh;
+}
+
+.contanier{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main{
+    width: 100%;
+    height: 500px;
+    background-color: skyblue;
+    margin: 20px auto;
+    position: relative;
+}
+
+.w-70{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.w-30{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/Lo-fi\ concept-rafiki.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login-form{
+    padding: 50px 30px;
+}
+
+h1{
+    color: rgb(83, 83, 83);
+    font-family: poppins;
+}
+
+p{
+    color: rgb(0, 55, 71);
+    font-size: 14px;
+    font-family: poppins;
+}
+
+form input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 5px 0 20px 0;
+}
+
+form label{
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(4, 82, 96);
+}
+
+.ex{
+    justify-content: space-between;
+    display: flex;
+}
+
+#check{
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(4, 82, 96);
+    border: 0;
+    border-radius: 10px;
+    color: white;
+}
